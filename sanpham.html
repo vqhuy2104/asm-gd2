@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AURA STUDIO | Sản phẩm</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a class="logo" href="index.html">AURA <span>STUDIO</span></a>
+        <nav class="menu">
+            <a href="index.html">Trang chủ</a>
+            <a class="active" href="sanpham.html">Sản phẩm</a>
+            <a href="ai-stylist.html">AI Stylist</a>
+            <a href="lienhe.html">Giới thiệu & Liên hệ</a>
+        </nav>
+    </header>
+
+    <main class="section">
+        <div class="page-intro">
+            <p class="eyebrow">AURA COLLECTION</p>
+            <h1>Sản phẩm thời trang</h1>
+            <p>Chọn những món đồ phù hợp với phong cách riêng của bạn.</p>
+        </div>
+
+        <form class="search-form" action="sanpham.html" method="get">
+            <label for="search">Tìm kiếm sản phẩm</label>
+            <input id="search" type="text" name="search" placeholder="Ví dụ: áo thun, quần jeans...">
+            <label for="category">Danh mục</label>
+            <select id="category" name="category">
+                <option value="">Tất cả sản phẩm</option>
+                <option>Áo thun</option>
+                <option>Quần jeans</option>
+                <option>Váy & đầm</option>
+                <option>Phụ kiện</option>
+            </select>
+            <button class="button" type="submit">Tìm kiếm</button>
+        </form>
+
+        <div class="product-grid">
+            <article class="product-card">
+                <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=700&q=80" alt="Áo thun basic">
+                <div class="product-info"><p class="product-type">ÁO THUN</p><h3>Áo thun Basic</h3><p class="price">199.000đ</p><p>Màu: Trắng · Đen | Size: S, M, L</p><a class="button button-small" href="lienhe.html">Đặt mua / Liên hệ</a></div>
+            </article>
+            <article class="product-card">
+                <img src="https://images.unsplash.com/photo-1542272604-787c3835535d?auto=format&fit=crop&w=700&q=80" alt="Quần jeans xanh">
+                <div class="product-info"><p class="product-type">QUẦN</p><h3>Quần Jeans Classic</h3><p class="price">399.000đ</p><p>Màu: Xanh | Size: S, M, L, XL</p><a class="button button-small" href="lienhe.html">Đặt mua / Liên hệ</a></div>
+            </article>
+            <article class="product-card">
+                <img src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=700&q=80" alt="Váy thanh lịch">
+                <div class="product-info"><p class="product-type">VÁY & ĐẦM</p><h3>Váy thanh lịch</h3><p class="price">459.000đ</p><p>Màu: Kem | Size: S, M, L</p><a class="button button-small" href="lienhe.html">Đặt mua / Liên hệ</a></div>
+            </article>
+            <article class="product-card">
+                <img src="https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?auto=format&fit=crop&w=700&q=80" alt="Áo khoác thời trang">
+                <div class="product-info"><p class="product-type">ÁO KHOÁC</p><h3>Áo khoác hiện đại</h3><p class="price">529.000đ</p><p>Màu: Nâu | Size: M, L, XL</p><a class="button button-small" href="lienhe.html">Đặt mua / Liên hệ</a></div>
+            </article>
+            <article class="product-card">
+                <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=700&q=80" alt="Trang phục phong cách">
+                <div class="product-info"><p class="product-type">BỘ SƯU TẬP</p><h3>Set phối đồ tối giản</h3><p class="price">599.000đ</p><p>Phong cách: Casual</p><a class="button button-small" href="ai-stylist.html">Gợi ý phối đồ</a></div>
+            </article>
+            <article class="product-card">
+                <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=700&q=80" alt="Phụ kiện thời trang">
+                <div class="product-info"><p class="product-type">PHỤ KIỆN</p><h3>Phụ kiện thời trang</h3><p class="price">149.000đ</p><p>Dễ kết hợp với nhiều trang phục</p><a class="button button-small" href="lienhe.html">Đặt mua / Liên hệ</a></div>
+            </article>
+        </div>
+        <p class="note">Lưu ý: Đây là website mẫu phục vụ bài tập HTML & CSS. Form tìm kiếm và nút đặt mua chưa kết nối cơ sở dữ liệu hoặc hệ thống thanh toán.</p>
+    </main>
+
+    <footer class="footer">
+        <a class="logo logo-light" href="index.html">AURA <span>STUDIO</span></a>
+        <p>Thời trang hiện đại – Tự tin thể hiện cá tính.</p>
+        <p>© 2026 AURA STUDIO.</p>
+    </footer>
+</body>
+</html>
